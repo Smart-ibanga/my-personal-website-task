@@ -1,7 +1,7 @@
-##This is the stage-one task
-###Stage 1: Build your personal website (FRONTEND TASK)
-Study Material
+## This is the stage-one task (HNG 11)
+### Stage 1: Build your personal website (FRONTEND TASK)
 
+**Study Material**
 https://www.freecodecamp.org/news/html-css-11-hour-course/
 HTML Tutorial: https://www.w3schools.com/html/
 CSS Tutorial: https://www.w3schools.com/css/
@@ -9,12 +9,12 @@ Responsive Web Design Guide: https://firefox-source-docs.mozilla.org/devtools-us
 HTMLImageElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight
 GitHub Pages: https://docs.github.com/articles/creating-project-pages-manually
 
-####Task
+#### Task
 You will create and host a simple single-page website outlining your goals for the next 2 years in the tech field.
 The website should be visually appealing, mobile-friendly, and utilize HTML and CSS only.
 Each required element should have a specified data-testid attribute for easy identification and testing.
 
-Requirements:
+**Requirements**:
 Languages: HTML and CSS only. No JavaScript allowed for this stage.
 Responsiveness: The website must be responsive and function well on all devices (desktop, tablet, mobile).
 Images: All images used on the website must have natural dimensions (width and height specified in the image file itself). Websites with images that don't have natural dimensions will be automatically disqualified.
@@ -30,12 +30,12 @@ Attribute: data-testid="slackEmail"
 Slack profile pictureDisplay your Slack Profile Picture
 Attribute: data-testid="slackProfilePicture"
 
-Dimensions: The image must have natural dimensions (width and height specified in the image file itself) and added to the page in its original size (natural width and natural height).
+**Dimensions**: The image must have natural dimensions (width and height specified in the image file itself) and added to the page in its original size (natural width and natural height).
 Add a link to hng.tech/learn.Attribute: data-testid="hngLink"
 Add a link to keyword.dogAttribute: data-testid="keywordLink"
 Add a link to scrapeanyweb.siteAttribute: data-testid="scrapeanywebLink"
 
-Acceptance Criteria:
+**Acceptance Criteria**:
 Content: The website should clearly outline your tech goals for the next 2 years.
 Visuals: The website should be visually appealing and well-organized.
 Functionality:All links should function properly and direct users to the specified websites (hng.tech/learn, keyword.dog, scrapeanyweb.site).
