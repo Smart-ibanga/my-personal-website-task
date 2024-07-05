@@ -17,7 +17,8 @@ body {
     background-color: #f0f0f0;
 }
 .container {
-    background: #fff;
+    background: #868282;
+    justify-items: space-between;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,10 +27,39 @@ body {
     text-align: center;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #30353a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
 img {
     border-radius: 50%;
     max-width: 100%;
 }
+
+.profile h1{
+    font-size: 25px;
+}
+
+.profile{
+    margin-right: auto;
+    text-align: left;
+    align-items: center;
+}
+
+.current-day-time {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+  }
+
+
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -37,13 +67,36 @@ img {
 h1, p {
     margin: 10px 0;
 }
-.links a {
+
+.goal-outline h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    
+  }
+  .plan h3 {
+    text-align: center;
+  }
+  
+  .plan {
+    border-radius: 8px;
+    text-align: justify;
+    padding: 15px;
+    background-color: #007bff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer a {
     display: block;
     margin: 10px 0;
-    color: #0073e6;
+    color: #ffffff;
     text-decoration: none;
 }
-.links a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 @media (max-width: 600px) {

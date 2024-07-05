@@ -11,16 +11,59 @@
 </head>
 <body>
     <div class="container">
-        <h1 data-testid="slackDisplayName">SmartIbanga1</h1>
-        <img src="./images/smart.jpeg" alt="Slack Profile Picture" class="profile-pic" data-testid="slackProfilePicture">
-        <p data-testid="currentTimeUTC">Current Time in UTC: <span id="time-utc"></span></p>
-        <p data-testid="currentDay">Current Day: <span id="day"></span></p>
-        <p data-testid="slackEmail">ibangasmart@gmail.com</p>
-        <div class="links">
+        <header>
+            <div class="profile">
+                <h1 data-testid="slackDisplayName">@SmartIbanga1</h1>
+                <p data-testid="slackEmail">ibangasmart@gmail.com</p>
+                <div class="current-day-time">
+                  <p data-testid="currentTimeUTC"><span id="time-utc"></span></p>
+                  <span data-testid="currentDay" id="day"></span>
+                </div>
+            </div>
+            <img src="./images/smart.jpeg" alt="Slack Profile Picture" class="profile-pic" data-testid="slackProfilePicture">
+        </header>
+        <section class="goal-outline">
+            <h2>MY TWO YEAR DEVELOPMENT PLAN</h2>
+            <div class="plan">
+              <h3>Foundation and Core Skills Development</h3>
+              <p>
+                Build my Understanding on the fundamentals of front-end development by 
+                familiarizing with version control systems (e.g., Git) and Understanding 
+                the project structure and build process.With the knowledge gained i should Start working on small, guided projects and 
+                be able to articipate in code reviews to learn best practices.
+              </p>
+            </div>
+            <div class="plan">
+              <h3>Build more complex features and improve problem-solving skills.</h3>
+              <p>
+                This would be achieved by advancing my knowledge of JavaScript, including ES6+ features, 
+                learning CSS preprocessors like SASS or LESS and start using front-end frameworks/libraries
+                (React, Vue, or Angular) depending on which is more preferable to me to specialize on. I would 
+                also build more knowledge by Collaborating with back-end developers and designers.
+                and Contribute to documentation and knowledge sharing.
+              </p>
+            </div>
+            <div class="plan">
+              <h3>Master advanced JavaScript concepts/frameworks and optimizing front-end performance</h3>
+              <p>
+                This can be achieved by Learning techniques for optimizing load times and runtime performance.
+                ,ensuring code quality and reliability,writing unit tests and learning about end-to-end testing with tools 
+              </p>
+            </div>
+            <div class="plan">
+              <h3>Building on specialization and leadership</h3>
+              <p>
+                Start specializing in an area of interest and take on leadership roles by Choosing a specialization 
+                (e.g., UI/UX design, performance optimization, accessibility), leading small projects or features.
+                and mentoring new interns or junior developers.
+              </p>
+            </div>
+        </section>
+        <footer class="footer">
             <a href="https://hng.tech/learn" data-testid="hngLink">Learn at HNG</a>
             <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
             <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
-        </div>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

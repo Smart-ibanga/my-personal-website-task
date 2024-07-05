@@ -1,2 +1,21 @@
-document.getElementById('time-utc').innerText = new Date().toUTCString().split(' ')[4];
-document.getElementById('day').innerText = new Date().toLocaleString('en-us', { weekday: 'long' });
+document.addEventListener("DOMContentLoaded", function () {
+    const currentTimeUTCElement = document.getElementById("time-utc");
+    const currentDayElement = document.getElementById("day");
+
+    function updateTime() {
+        const now = new Date();
+        const currentTimeUTC = now.toLocaleString("en-US", {
+            timeZone: "UTC",
+            hour12: false,
+            hour: "numeric",
+            minute: "numeric",
+        });
+        const currentDay = now.toLocaleDateString("en-US", { weekday: "long" });
+
+        currentTimeUTCElement.textContent = currentTimeUTC;
+        currentDayElement.textContent = currentDay;
+    }
+
+    updateTime();
+    setInterval(updateTime, 60000);
+});
